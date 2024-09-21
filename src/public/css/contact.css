@@ -1,0 +1,143 @@
+/* 
+.form__label--item
+ */
+
+.contact-form__content {
+  margin: 0 auto;
+  padding: 30px 15px;
+  max-width: 1230px;
+}
+
+.contact-form__title {
+  margin-bottom: 40px;
+  text-align: center;
+  color: #8B7969;
+}
+
+.form {
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}
+
+.form__group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form__label {
+  text-align: left;
+  font-size: 16px;
+  width: 30%;
+}
+
+.form__label--red {
+  color: tomato;
+}
+
+.form__error{
+  color: tomato;
+  display: flex;
+  margin-bottom: 10px;
+}
+.form__input--text,
+.form__input--textarea{
+  width: 100%;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  background-color: #f4f4f4;
+  text-align: left;
+}
+
+.form__input--text input {
+  height: 40px;
+}
+
+.form__input--textarea textarea {
+  height: 180px;
+}
+
+.form__input--name,
+.form__input--tell {
+  width: 100%;
+  text-align: left;
+}
+
+.form__input--name input,
+.form__input--tell input {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #f4f4f4;
+  text-align: left;
+}
+
+.form__input--name input{
+  margin-right: 30px;
+  width: 45%;
+}
+
+.form__input--tell span{
+  margin: 0 20px;
+}
+
+.form__input--radio {
+  width: 100%;
+  text-align: left;
+}
+
+.form__input--radio input {
+  padding: 10px;
+  text-align: left;
+}
+
+.form__input--select {
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+.form__input--select::after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 140px;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+  border-top: 12px solid #D9C6B7;
+  border-bottom: 0;
+  pointer-events: none;
+}
+
+.form__input--select select {
+  padding: 10px;
+  width: 80%;
+  border: none;
+  border-radius: 3px;
+  background-color: #f4f4f4;
+  appearance: none;
+  color: #8B7969;
+}
+
+.form__button {
+  margin-top: 30px;
+}
+
+.form__button--submit {
+  padding: 10px;
+  width: 20%;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  background: #8B7969;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
